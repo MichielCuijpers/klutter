@@ -1,0 +1,16 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:annotations-jvm
+dev.buijs.klutter.annotations.jvm
+module:annotations-kmp
+dev.buijs.klutter.annotations.kmp
+module:core
+dev.buijs.klutter.core
+dev.buijs.klutter.core.annotations
+dev.buijs.klutter.core.project
+dev.buijs.klutter.core.tasks
+module:core-test
+dev.buijs.klutter.core.test
+module:plugin-gradle
+dev.buijs.klutter.plugins.gradle

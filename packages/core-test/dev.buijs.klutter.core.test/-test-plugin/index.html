@@ -1,0 +1,423 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TestPlugin</title>
+</head><body><link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../../";</script>
+    <script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async></script><link href="../../../../styles/style.css" rel="Stylesheet"><link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../../styles/main.css" rel="Stylesheet"><link href="../../../../styles/prism.css" rel="Stylesheet"><link href="../../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../../scripts/clipboard.js" async></script><script type="text/javascript" src="../../../../scripts/navigation-loader.js" async></script><script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async></script><script type="text/javascript" src="../../../../scripts/main.js" defer></script><script type="text/javascript" src="../../../../scripts/prism.js" async></script><script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+
+  
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../../../index.html"><span>klutter</span></a></div>
+      <div></div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div class="main-content" id="content" pageids="core-test::dev.buijs.klutter.core.test/TestPlugin///PointingToDeclaration//-1996094603">
+          <div class="breadcrumbs"><a href="../../index.html">core-test</a>/<a href="../index.html">dev.buijs.klutter.core.test</a>/<a href="index.html">TestPlugin</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>Test</span><wbr><span><span>Plugin</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">TestPlugin</a><span class="token punctuation">(</span>pluginName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>pluginClassName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>pluginPackageName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>root<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>libFolder<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>libFile<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>platform<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>platformCommonMain<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>platformSourceFile<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>platformPodSpec<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>ios<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>iosClasses<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>iosPodspec<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>podfile<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>runnerFolder<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>appDelegate<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>android<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>androidSrcMain<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>manifest<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>pathToPluginSource<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>pathToPlugin<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>platformBuildGradle<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>rootSettingsGradle<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span>pubspecYaml<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-1703798847%2FFunctions%2F-1996094603" anchor-label="test" id="-1703798847%2FFunctions%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="test.html"><span><span>test</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1703798847%2FFunctions%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="test.html"><span class="token function">test</span></a><span class="token punctuation">(</span>projectDir<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token punctuation">, </span><span class="token keyword">vararg </span>args<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Properties</h2>
+              <div class="table" data-togglable="Properties"><a data-name="-907173803%2FProperties%2F-1996094603" anchor-label="android" id="-907173803%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="android.html">android</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-907173803%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-907173803%2FProperties%2F-1996094603" anchor-label="android" id="-907173803%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="android.html">android</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1309529816%2FProperties%2F-1996094603" anchor-label="androidSrcMain" id="-1309529816%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="android-src-main.html">androidSrcMain</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1309529816%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1309529816%2FProperties%2F-1996094603" anchor-label="androidSrcMain" id="-1309529816%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="android-src-main.html">androidSrcMain</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="749674590%2FProperties%2F-1996094603" anchor-label="appDelegate" id="749674590%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="app-delegate.html">appDelegate</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="749674590%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="749674590%2FProperties%2F-1996094603" anchor-label="appDelegate" id="749674590%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="app-delegate.html">appDelegate</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-307963913%2FProperties%2F-1996094603" anchor-label="ios" id="-307963913%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="ios.html">ios</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-307963913%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-307963913%2FProperties%2F-1996094603" anchor-label="ios" id="-307963913%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="ios.html">ios</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1842070275%2FProperties%2F-1996094603" anchor-label="iosClasses" id="-1842070275%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="ios-classes.html">iosClasses</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1842070275%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1842070275%2FProperties%2F-1996094603" anchor-label="iosClasses" id="-1842070275%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="ios-classes.html">iosClasses</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-849375517%2FProperties%2F-1996094603" anchor-label="iosPodspec" id="-849375517%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="ios-podspec.html">iosPodspec</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-849375517%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-849375517%2FProperties%2F-1996094603" anchor-label="iosPodspec" id="-849375517%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="ios-podspec.html">iosPodspec</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="692466019%2FProperties%2F-1996094603" anchor-label="libFile" id="692466019%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="lib-file.html">libFile</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="692466019%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="692466019%2FProperties%2F-1996094603" anchor-label="libFile" id="692466019%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="lib-file.html">libFile</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1965621711%2FProperties%2F-1996094603" anchor-label="libFolder" id="-1965621711%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="lib-folder.html">libFolder</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1965621711%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1965621711%2FProperties%2F-1996094603" anchor-label="libFolder" id="-1965621711%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="lib-folder.html">libFolder</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1101589209%2FProperties%2F-1996094603" anchor-label="manifest" id="-1101589209%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="manifest.html">manifest</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1101589209%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1101589209%2FProperties%2F-1996094603" anchor-label="manifest" id="-1101589209%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="manifest.html">manifest</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1229583741%2FProperties%2F-1996094603" anchor-label="pathToPlugin" id="-1229583741%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="path-to-plugin.html">pathToPlugin</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1229583741%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1229583741%2FProperties%2F-1996094603" anchor-label="pathToPlugin" id="-1229583741%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="path-to-plugin.html">pathToPlugin</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-739593688%2FProperties%2F-1996094603" anchor-label="pathToPluginSource" id="-739593688%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="path-to-plugin-source.html">pathToPluginSource</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-739593688%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-739593688%2FProperties%2F-1996094603" anchor-label="pathToPluginSource" id="-739593688%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="path-to-plugin-source.html">pathToPluginSource</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="728903523%2FProperties%2F-1996094603" anchor-label="platform" id="728903523%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="platform.html">platform</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="728903523%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="728903523%2FProperties%2F-1996094603" anchor-label="platform" id="728903523%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="platform.html">platform</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-158687806%2FProperties%2F-1996094603" anchor-label="platformBuildGradle" id="-158687806%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="platform-build-gradle.html">platformBuildGradle</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-158687806%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-158687806%2FProperties%2F-1996094603" anchor-label="platformBuildGradle" id="-158687806%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="platform-build-gradle.html">platformBuildGradle</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2117107199%2FProperties%2F-1996094603" anchor-label="platformCommonMain" id="2117107199%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="platform-common-main.html">platformCommonMain</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2117107199%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="2117107199%2FProperties%2F-1996094603" anchor-label="platformCommonMain" id="2117107199%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="platform-common-main.html">platformCommonMain</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="238335447%2FProperties%2F-1996094603" anchor-label="platformPodSpec" id="238335447%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="platform-pod-spec.html">platformPodSpec</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="238335447%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="238335447%2FProperties%2F-1996094603" anchor-label="platformPodSpec" id="238335447%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="platform-pod-spec.html">platformPodSpec</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2095550612%2FProperties%2F-1996094603" anchor-label="platformSourceFile" id="-2095550612%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="platform-source-file.html">platformSourceFile</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2095550612%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-2095550612%2FProperties%2F-1996094603" anchor-label="platformSourceFile" id="-2095550612%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="platform-source-file.html">platformSourceFile</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="884806836%2FProperties%2F-1996094603" anchor-label="pluginClassName" id="884806836%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="plugin-class-name.html">pluginClassName</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="884806836%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="884806836%2FProperties%2F-1996094603" anchor-label="pluginClassName" id="884806836%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="plugin-class-name.html">pluginClassName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1621913496%2FProperties%2F-1996094603" anchor-label="pluginName" id="1621913496%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="plugin-name.html">pluginName</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1621913496%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="1621913496%2FProperties%2F-1996094603" anchor-label="pluginName" id="1621913496%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="plugin-name.html">pluginName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-253305306%2FProperties%2F-1996094603" anchor-label="pluginPackageName" id="-253305306%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="plugin-package-name.html">pluginPackageName</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-253305306%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-253305306%2FProperties%2F-1996094603" anchor-label="pluginPackageName" id="-253305306%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="plugin-package-name.html">pluginPackageName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-221132349%2FProperties%2F-1996094603" anchor-label="podfile" id="-221132349%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="podfile.html">podfile</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-221132349%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-221132349%2FProperties%2F-1996094603" anchor-label="podfile" id="-221132349%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="podfile.html">podfile</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1094006341%2FProperties%2F-1996094603" anchor-label="pubspecYaml" id="1094006341%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="pubspec-yaml.html">pubspecYaml</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1094006341%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="1094006341%2FProperties%2F-1996094603" anchor-label="pubspecYaml" id="1094006341%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="pubspec-yaml.html">pubspecYaml</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1263180204%2FProperties%2F-1996094603" anchor-label="root" id="-1263180204%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="root.html">root</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1263180204%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-1263180204%2FProperties%2F-1996094603" anchor-label="root" id="-1263180204%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="root.html">root</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1473671914%2FProperties%2F-1996094603" anchor-label="rootSettingsGradle" id="1473671914%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="root-settings-gradle.html">rootSettingsGradle</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1473671914%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="1473671914%2FProperties%2F-1996094603" anchor-label="rootSettingsGradle" id="1473671914%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="root-settings-gradle.html">rootSettingsGradle</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-112096776%2FProperties%2F-1996094603" anchor-label="runnerFolder" id="-112096776%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a>
+                <div class="table-row" data-filterable-current=":packages:core-test:dokkaHtmlPartial/main" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex">
+                        <div><a href="runner-folder.html">runnerFolder</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-112096776%2FProperties%2F-1996094603"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":packages:core-test:dokkaHtmlPartial/main"><a data-name="-112096776%2FProperties%2F-1996094603" anchor-label="runnerFolder" id="-112096776%2FProperties%2F-1996094603" data-filterable-set=":packages:core-test:dokkaHtmlPartial/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="runner-folder.html">runnerFolder</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  
+</body></html>
+
+
